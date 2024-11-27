@@ -1,6 +1,6 @@
 ﻿namespace Luftkvalitet
 {
-    public class Meassurement
+    public class Measurement
     {
         public int Id { get; set; }
         public string? Location { get; set; }
@@ -8,7 +8,7 @@
         public int CO2 { get; set; }
         public DateTime Time { get; set; }
 
-        public Meassurement()
+        public Measurement()
         {
             Time = DateTime.Now;
         }
