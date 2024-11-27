@@ -28,10 +28,14 @@ namespace Luftkvalitet.Tests
 
         }
 
-            [TestMethod()]
+        [TestMethod()]
         public void GetAllTest()
-        {
-            Assert.Fail();
+        {      
+            List<Measurement> list = repo.GetAll("Her");
+            Assert.AreEqual(1, list.Count);
+
+            List<Measurement> list2 = repo.GetAll(dateTimeLower: DateTime.Now.AddDays(-301), dateTimeUpper: DateTime.Now);
+            Assert.AreEqual(3, list2.Count);
         }
 
         [TestMethod()]
