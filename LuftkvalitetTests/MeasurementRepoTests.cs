@@ -41,13 +41,16 @@ namespace Luftkvalitet.Tests
         [TestMethod()]
         public void GetByIdTest()
         {
-            Assert.Fail();
+            Measurement measurement1 = repo.GetById(1);
+            Assert.AreEqual(measurement1.CO2, 1500);
         }
 
         [TestMethod()]
         public void AddTest()
         {
-            Assert.Fail();
+            repo.Add(new Measurement() { Id = 5, CO2 = 1500, Humidity = 100, Location = "Her2", Time = DateTime.Now.AddDays(-300) });
+            List<Measurement> list = repo.GetAll();
+            Assert.AreEqual(5, list.Count);
         }
     }
 }
