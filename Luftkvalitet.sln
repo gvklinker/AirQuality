@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Luftkvalitet", "Luftkvalitet\Luftkvalitet.csproj", "{4C1921B5-3862-4C89-9BE5-E2CE86C1D08F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuftkvalitetTests", "LuftkvalitetTests\LuftkvalitetTests.csproj", "{46163690-D9E9-4160-8782-DF559CC292CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C1921B5-3862-4C89-9BE5-E2CE86C1D08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C1921B5-3862-4C89-9BE5-E2CE86C1D08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C1921B5-3862-4C89-9BE5-E2CE86C1D08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C1921B5-3862-4C89-9BE5-E2CE86C1D08F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46163690-D9E9-4160-8782-DF559CC292CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46163690-D9E9-4160-8782-DF559CC292CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46163690-D9E9-4160-8782-DF559CC292CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46163690-D9E9-4160-8782-DF559CC292CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {943A0218-96A1-4111-AC67-BE5CA6D15A4C}
+	EndGlobalSection
+EndGlobal
