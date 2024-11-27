@@ -8,6 +8,11 @@
         public int CO2 { get; set; }
         public DateTime Time { get; set; }
 
+        public Meassurement()
+        {
+            Time = DateTime.Now;
+        }
+
         public void Validate()
         {
             if (string.IsNullOrEmpty(Location))
